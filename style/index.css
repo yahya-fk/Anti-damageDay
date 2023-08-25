@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+.cascading-right {
+    margin-right: -50px;
+}
+
+@media (max-width: 991.98px) {
     .cascading-right {
-        margin-right: -50px;
+        margin-right: 0;
     }
-    
-    @media (max-width: 991.98px) {
-        .cascading-right {
-            margin-right: 0;
-        }
+}
+
+img {
+    border-radius: 5%;
+    height: auto;
+    max-width: 100%;
+}
+
+span {
+    color: red;
+    font-size: 12px;
+}
+
+.valide {
+    color: green;
+    font-size: 12px;
+}
+
+@media (max-width: 992px) {
+    .d-lg-block {
+        display: block ;
     }
-    img{
-        border-radius: 5%;
-        height: 100vh;
-        width: 90vh;
-    }
-    span{
-        color: red;
-        font-size: 12px;
-    }
-    .valide{
-        color: green;
-        font-size: 12px;
-    }
-    @media (max-width: 992px) {
-        img{
-            display:none;
-        }
-    }
+}
