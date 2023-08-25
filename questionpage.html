@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://localhost/antidamageday/questionpage.php -->
+<html>
+    <head>
+    <title>Audit Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png"></head>
+    <link rel="stylesheet" href="style/questionpage.css">
+  </head>
+
+<body class="h-100">
+
+  <nav class="navbar navbar-expand-lg navbar-dark custom-color ">
+    <a class="navbar-brand" href=""><img class="img" src="img/stellantis-4096.png" alt=""></a>
+
+    <div class="user-info">
+   
+    <a href="menu.html">
+  <button class="btn btn-danger rounded-sm ml-2" id="btn">Annuler l'audit</button>
+</a>
+  </div>
+  </nav>
+
+
+
+
+  <div class=" container-fluid ">
+    <div class=" row container-fluid">
+        <div class="container text-center">
+          <h1 class="custom-title">QUESTIONNAIRE</h1>
+          <div class="container justify-space-between">
+            <div class="row">
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">ATELIER </h2>
+                  <h3 class="card-subtitle">MONTAGE</h3>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">UEP </h2>
+                  <h3 class="card-subtitle"> HC1</h3>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">MODULE </h2>
+                  <h3 class="card-subtitle">HC1A</h3>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">POSTE </h2>
+                  <h3 class="card-subtitle">1HC1A02D</h3>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">OPERATEUR </h2>
+                  <h3 class="card-subtitle">le nom de l'operateur</h3>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card">
+                  <h2 class="card-title">EQUIPE </h2>
+                  <h3 class="card-subtitle">B</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+    </div>
+    <div class="row d-flex p-0">
+
+      <div class="col-2 flex-item sidebar p-0 custom-color">
+        <ul class="nav flex-column p-0" style="height: fit-content;">
+
+
+        <li class="nav-item ">
+            <div class="nav-div">
+            <a class="navsideLink div-link nav-link text-light text-sm  text-center" data-target="1">
+            <img src="img/icons/main.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle ">MAIN D'OEUVRE</h4>
+            </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link div-link text-light navsideLink text-center" data-target="2">
+            <img src="img/icons/moy.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle">MOYEN</h4>
+            </a>
+          </li><li class="nav-item">
+            <a class="nav-link div-link text-light navsideLink text-center" data-target="3">
+            <img src="img/icons/METHOD.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle">METHODE</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link div-link text-light navsideLink text-center" data-target="4">
+            <img src="img/icons/milieu.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle">MILIEU</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link div-link text-light navsideLink text-center" data-target="5">
+            <img src="img/icons/matiere.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle">MATIERE</h4>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link div-link text-light navsideLink text-center" data-target="6">
+            <img src="img/icons/add-button.png" alt="Icon 2" class="icone" width="50%" height="20%"> 
+            <h4 class="navsideTitle">AUTRE</h4>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+
+
+      <div class="flex-item  col-10 menu-section">
+
+
+        <div class="div-container div-container1" id="1">
+              <div class="text-center">
+                <h3>MAIN D'OEUVRE</h3>
+              </div>
+                
+                <div class="form-group custom-form  " id="Div1">
+                  <div class="p-0 form-group">
+                    <label for="qst1" id="qst1">1- La tenue de travail ne contient pas du métal qui peut agresser le véhicule.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst1" name="qst1" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt1">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt1" id="cmnt1" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div2">
+                  <div class="p-0 form-group">
+                    <label for="qst2" id="qst2">2- La ceinture de l'opérateur ne comporte pas une boucle métallique.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst2" name="qst2" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt2">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt2" id="cmnt2" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div3">
+                  <div class="p-0 form-group">
+                    <label for="qst3" id="qst3">3- L'opérateur ne porte pas sur lui un outil (pince, clé, ...), un stylo, une montre, une bague, un collier, des boucles d'oreilles visibles qui peuvent agresser le véhicule.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst3" name="qst3" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt3">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt3" id="cmnt3" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div4">
+                  <div class="p-0 form-group">
+                    <label for="qst4" id="qst4">4- Les outils ne sont pas mis dans les poches du pantalon (ou autre] mais dans une pochette tablier sans risque de toucher le véhicule.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst4" name="qst4" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt4">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt4" id="cmnt4" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div5">
+                  <div class="p-0 form-group">
+                    <label for="qst5" id="qst5">5- Les gants et chaussures sont propres.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst5" name="qst5" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt5">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt5" id="cmnt5" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div6">
+                  <div class="p-0 form-group">
+                    <label for="qst6" id="qst6">6- L'opérateur n'a pas de badge accroché sur lui qui peut toucher le véhicule lors de son travail.</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst6" name="qst6" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt6">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt6" id="cmnt6" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+
+
+        </div> 
+        <div class="div-container" id="2">
+              <div class="text-center">
+              <h3>MOYEN :</h3>
+
+
+              </div>
+              
+                <div class="form-group custom-form  " id="Div7">
+                  <div class="p-0 form-group">
+                    <label for="qst7" id="qst7">1- Les outils, fils, tuyaux et autres dispositifs de rallonges ou de connexion sont protégés du risque de contact avec le véhicule ou les pièces.</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst7" name="qst7" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt7">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt7" id="cmnt7" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div8">
+                  <div class="p-0 form-group">
+                    <label for="qst8" id="qst8">2- Les pièces et outils ne tombent pas d'un équipement/moyen suspendu lors du déplacement de ce dernier</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst8" name="qst8" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt8">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt8" id="cmnt8" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div9">
+                  <div class="p-0 form-group">
+                    <label for="qst9" id="qst9">3- La protection ne laisse pas apparaître une partie métallique, susceptible d'agresser le véhicule</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst9" name="qst9" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt9">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt9" id="cmnt9" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div10">
+                  <div class="p-0 form-group">
+                    <label for="qst10" id="qst10">4- Les boîtes à outils transportables sont protégées
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst10" name="qst10" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt10">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt10" id="cmnt10" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div11">
+                  <div class="p-0 form-group">
+                    <label for="qst11" id="qst11">5- Les outils ne sont portés sous le bras.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst11" name="qst11" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt11">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt11" id="cmnt11" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div12">
+                  <div class="p-0 form-group">
+                    <label for="qst12" id="qst12">6- Un outil suspendu ne touche pas la caisse lorsqu'il est relâché
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst12" name="qst12" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt12">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt12" id="cmnt12" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div13">
+                  <div class="p-0 form-group">
+                    <label for="qst13" id="qst13">7- Une protection est réalisée pour les zones qui peuvent toucher la caisse ( Poutres, armoires, machines ...)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst13" name="qst13" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt13">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt13" id="cmnt13" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div14">
+                  <div class="p-0 form-group">
+                    <label for="qst14" id="qst14">8- Les outils sont disposés dans des endroits spécifiques
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst14" name="qst14" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt14">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt14" id="cmnt14" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div15">
+                  <div class="p-0 form-group">
+                    <label for="qst15" id="qst15">9- Aucune boite à outils n'est directement posée sur la caisse.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst15" name="qst15" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt15">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt15" id="cmnt15" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div16">
+                  <div class="p-0 form-group">
+                    <label for="qst16" id="qst16">10- La partie de l'équipement qui s'approche du véhicule doit être protégée
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst16" name="qst16" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt16">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt16" id="cmnt16" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div17">
+                  <div class="p-0 form-group">
+                    <label for="qst17" id="qst17">11- La vérification des protections est ajoutée à la liste des éléments de contrôle "Ok démarrage"
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst17" name="qst17" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt17">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt17" id="cmnt17" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div18">
+                  <div class="p-0 form-group">
+                    <label for="qst18" id="qst18">12- Il y a au minimum 10cm de distance entre la caisse et les équipements proches (inclus les meubles)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst18" name="qst18" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt18">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt18" id="cmnt18" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div19">
+                  <div class="p-0 form-group">
+                    <label for="qst19" id="qst19">13- Il existe une distance entre la caisse et l'équipement même lorsque la position de celui-ci change (mise en place, retrait, rotation, translation, dépannage,..)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst19" name="qst19" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt19">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt19" id="cmnt19" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+        </div>
+       <div class="div-container" id="3">
+              <div class="text-center">
+              <h3>METHODE :</h3>
+
+
+                </div>
+              
+                <div class="form-group custom-form  " id="Div21">
+                  <div class="p-0 form-group">
+                    <label for="qst21" id="qst21">1- L'opérateur ne travaille pas en s'appuyant sur la caisse
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst21" name="qst21" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt21">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt21" id="cmnt21" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div22">
+                  <div class="p-0 form-group">
+                    <label for="qst22" id="qst22">2- L'opérateur n'entre pas à l'intérieur du véhicule en s'appuyant sur la caisse
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst22" name="qst22" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt22">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt22" id="cmnt22" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div23">
+                  <div class="p-0 form-group">
+                    <label for="qst23" id="qst23">3- L'opérateur ne marche pas sur le "bas de marche" en entrant dans le véhicule
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst23" name="qst23" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt23">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt23" id="cmnt23" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div24">
+                  <div class="p-0 form-group">
+                    <label for="qst24" id="qst24">4- Les vis et les écrous ne sont pas serrés avec une seule main (sans guidage de l'autre main)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst24" name="qst24" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt24">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt24" id="cmnt24" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div25">
+                  <div class="p-0 form-group">
+                    <label for="qst25" id="qst25">5- L'opérateur ne touche pas la caisse avec ses mains lorsqu'il a en sa possession un outil ou une pièce
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst25" name="qst25" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt25">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt25" id="cmnt25" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div26">
+                  <div class="p-0 form-group">
+                    <label for="qst26" id="qst26">6- Les outils ne sont pas jetés vers le Bord de chaine en fin d'opération
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst26" name="qst26" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt26">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt26" id="cmnt26" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div27">
+                  <div class="p-0 form-group">
+                    <label for="qst27" id="qst27">7- L'outil ou la pièce ne sont pas changés ou préparés au dessus du véhicule ou à l'intérieur de celui-CI
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst27" name="qst27" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt27">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt27" id="cmnt27" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div28">
+                  <div class="p-0 form-group">
+                    <label for="qst28" id="qst28">8- Pas de contact inapproprié de l'outil, de la pièce avec la caisse pendant l'assemblage de la pièce
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst28" name="qst28" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt28">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt28" id="cmnt28" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div29">
+                  <div class="p-0 form-group">
+                    <label for="qst29" id="qst29">9- L'opérateur réalise un autocontrôle avant et après l'opération</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst29" name="qst29" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt29">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt29" id="cmnt29" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+            </div>
+        <div class="div-container" id="4">
+            <div class="text-center">
+
+              <h3>MILIEU :</h3>
+              </div>
+
+              
+                <div class="form-group custom-form  " id="Div30">
+                  <div class="p-0 form-group">
+                    <label for="qst30" id="qst30">1- La zone de travail n'est pas encombrées, et l'opérateur se déplace avec fluidité.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst30" name="qst30" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt30">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt30" id="cmnt30" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div31">
+                  <div class="p-0 form-group">
+                    <label for="qst31" id="qst31">2- Aucun stockage sauvage n'est présent dans la zone de travail.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst31" name="qst31" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt31">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt31" id="cmnt31" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div32">
+                  <div class="p-0 form-group">
+                    <label for="qst32" id="qst32">3- Le milieu de travail est conforme au standard 5S</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst32" name="qst32" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt32">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt32" id="cmnt32" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+              </div>
+              <div class="div-container" id="5">
+              <div class="text-center">
+              <h3>MATIERE :</h3>
+
+                </div>
+
+              
+                <div class="form-group custom-form  " id="Div33">
+                  <div class="p-0 form-group">
+                    <label for="qst33" id="qst33">1- Les pièces sont disposées correctement au bon endroit dans l'emballage
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst33" name="qst33" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt33">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt33" id="cmnt33" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div34">
+                  <div class="p-0 form-group">
+                    <label for="qst34" id="qst34">2- Les pièces nues ne sont pas en contact entre elles (surtout zone métallique avec zone aspect)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst34" name="qst34" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt34">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt34" id="cmnt34" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div35">
+                  <div class="p-0 form-group">
+                    <label for="qst35" id="qst35">3- Un matériau de protection (résistant aux agressions) est présent dans les emballages et/ou les box.
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst35" name="qst35" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt35">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt35" id="cmnt35" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div36">
+                  <div class="p-0 form-group">
+                    <label for="qst36" id="qst36">4- Les pièces ne sont pas disposées en pile sur le sol (pièces en excédant)
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst36" name="qst36" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt36">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt36" id="cmnt36" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div37">
+                  <div class="p-0 form-group">
+                    <label for="qst37" id="qst37">5- La pièce ne touchent pas l'emballage ou le meuble lors de la prise
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst37" name="qst37" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt37">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt37" id="cmnt37" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div38">
+                  <div class="p-0 form-group">
+                    <label for="qst38" id="qst38">6- Les pièces longues sont récupérées délicatement sans toucher les autres pièces
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst38" name="qst38" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt38">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt38" id="cmnt38" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div39">
+                  <div class="p-0 form-group">
+                    <label for="qst39" id="qst39">7- Plusieurs pièces (3 ou plus) ne sont pas approvisionnées dans les mains en 1 seule fois
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst39" name="qst39" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt39">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt39" id="cmnt39" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div40">
+                  <div class="p-0 form-group">
+                    <label for="qst40" id="qst40">8- Les pièces ne touchent pas le véhicule à cause d'une méthode de prise ou manipulation non appropriée
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst40" name="qst40" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt40">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt40" id="cmnt40" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div41">
+                  <div class="p-0 form-group">
+                    <label for="qst41" id="qst41">9- Les pièces ne sont pas jetées dans le véhicule
+</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst41" name="qst41" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt41">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt41" id="cmnt41" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+                <div class="form-group custom-form  " id="Div42">
+                  <div class="p-0 form-group">
+                    <label for="qst42" id="qst42">10- Les pièces déposées par un opérateur précédent ne sont pas oubliées dans le véhicule</label>
+                    <div class="error-message text-center text-danger" style="display: none;">Merci de remplir le champ commentaire en cas de choix "NOK".</div>
+                    <select id="qst42" name="qst42" class="form-control hidden-select">
+                    <option value="NA">N/A</option>  
+                    <option value="NOK">NOK</option>
+                      <option value="OK">OK</option>
+                    </select>
+                  </div>  
+                    <div class="hidden-div">
+                     <label class="h6 hidden-div" for="cmnt42">Commentaire (traité, point dur) :</label>
+                     <input type="text" name="cmnt42" id="cmnt42" placeholder="Votre Commentaire ici" class="form-control hidden-div" style="color: #243882;">
+                     </div>
+                 </div>
+
+    
+              </div> 
+              <div class="div div-container h-50" id="6">
+              <label class="h6" for="cmnt20">Autre Remarque :</label>
+                        <input type="text" name="cmnt20" id="cmnt20" placeholder="Votre Commentaire ici" class="form-control" style="color: #243882; ">
+
+        </div>
+        <hr>
+        <hr>
+        <div class="text-center">
+        <p class="text-danger text-center">ne soumettez pas tant que vous n'avez pas répondu à toutes les questions pour tous les 5 M</p>
+        </div>
+        <button type="submit" onclick="location.href='menupage.html'" id="submitBtn" class="btn w-100 btn-primary">valider</button>
+        <script>
+            const buttons = document.querySelectorAll('.div-link');
+            const forms = document.querySelectorAll('.div-container');
+            
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const target = button.getAttribute('data-target');
+                    forms.forEach(form => {
+                        if (form.id === target) {
+                            form.style.display="block"
+                        } else {
+                            form.style.display="none"
+                        }
+                    });
+                });
+            });
+            
+
+
+            if (performance.navigation.type === 1) {
+                      alert('merci de ne pas actualiser cette page');
+              }
+    function validateForm() {
+        const selectElements = document.querySelectorAll('select[id^="qst"]');
+        for (let i = 0; i < selectElements.length; i++) {
+            const selectElement = selectElements[i];
+            if (selectElement.value === "NOK") {
+                const commentInput = document.getElementById("cmnt" + selectElement.id.slice(3));
+                const commentValue = commentInput.value.trim();
+                const questionDiv = document.getElementById("Div" + selectElement.id.slice(3));
+                if (commentValue === "") {
+                    alert("manque de commentaire !!");
+                    questionDiv.querySelector('.error-message').style.display = "block";
+                    selectElement.value = "NOK"
+                    return false;
+                }
+                else{
+                  questionDiv.querySelector('.error-message').style.display = "none";
+                }
+            }
+        }
+        return true;
+    }
+</script>
+
+
+    
+      </div>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  
+  <footer>
+    <div class="text-center " style="height: 20px">
+      <p class="txt text-dark">2023©  Yahya FEKRANE</p>
+    </div>
+  </footer>
+
+</body></html>
