@@ -85,7 +85,7 @@
       border-radius: 5px;
       padding: 10px;
       height: fit-content;
-      width: 15wh;
+      width: 25vh;
     }
 
     .card-title {
@@ -107,7 +107,7 @@
       }
       .card{
         height: fit-content;
-        width: 15wh;
+        width: 50wh;
 
       }
     .user-info {
