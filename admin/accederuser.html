@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify User Infos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+
+        form {
+            width: 75%;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #fff;
+        }
+
+        label {
+            font-weight: bold;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        input,select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Modify User Infos:</h1>
+    <form action="" class="p-5 text-center" method="POST">
+        <label for="id">ID:</label>
+        <input type="text" name="id" value="SE39040" readonly>
+        <div class="row">
+        <div class="col-6">
+        <label for="nom">Nom:</label>
+        <input type="text" name="nom" value="FEKRANE">
+        </div>
+        <div class="col-6">
+        <label for="prenom">Prenom:</label>
+        <input type="text" name="prenom" value="YAHYA">
+        </div>
+        </div>
+        <label for="is_staff">Is Staff:</label>
+        <select name="is_staff" id="is_staff">
+            <option value="1" selected>True</option>
+            <option value="0" >False</option>
+        </select>
+
+        <label for="is_superuser">Is Superuser:</label>
+        <select name="is_superuser" id="is_superuser">
+            <option value="1" selected>True</option>
+            <option value="0" >False</option>
+        </select>
+
+        
+        <div class="row p-2">
+            <div class="col-6">
+                <input type="submit" class="btn btn-primary btn-block" value="Modify the User">
+            </div>
+            <div class="col-6">
+                <a href="user.html" class="btn btn-danger btn-block">Back</a>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
